@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.weddinginvitation.MainActivity"
+    android:background="@drawable/wedding"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="46dp"
+        android:layout_toStartOf="@+id/imageView1"
+        android:src="@drawable/edo" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginEnd="88dp"
+        android:src="@drawable/galga" />
+
+    <TextView
+        android:id="@+id/come"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="Come and Celebrate"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Wedding of"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/come"
+        android:textSize="25sp"
+        android:id="@+id/wedd"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raynaldo dan Gal Gadot"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/wedd"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ray"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:src="@drawable/bunga"
+        android:layout_below="@+id/ray"
+        android:layout_centerHorizontal="true"
+
+    />
+
+</RelativeLayout>
